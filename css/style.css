@@ -41,7 +41,26 @@ h1 {
     font-size: 80px;
     line-height: 70px;
 }
+h2 {
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    position: relative;
+    color: #425BB5;
+    margin-left: 40px;
+    font-weight: 900;
+}
 
+h2:before {
+    position: absolute;
+    width: 30px;
+    left: -40px;
+    content: "";
+    display: block;
+    height: 3px;
+    background: #425BB5;
+    top: 19px;
+}
 h4 {
     font-family: 'Lato', sans-serif;
     text-transform: capitalize;
@@ -282,7 +301,8 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url(../img/home-bg-2.jpg);
+    /*background: url(../img/home-bg-2.jpg);*/
+    background: url(../img/Cliff.jpg);
     background-size: cover;
     height: 100vh;
 }
